@@ -9,7 +9,6 @@ public class AppConfig {
 
 //    eatApple is factory method
     @Bean
-     Apple eatApple(){
-        return new Apple();
-    }
+     Apple eatApple()    {             // creates bean
+     return new Apple();}               // registers bean
 }
