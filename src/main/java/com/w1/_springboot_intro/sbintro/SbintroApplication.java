@@ -27,14 +27,12 @@ public class SbintroApplication implements CommandLineRunner {
 
         System.out.println(a1.hashCode() == a2.hashCode() ? "true" : "false");
 
-
-//    2025-09-22T22:52:41.617+05:30  INFO 14791 --- [sbintro] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
-//    PostConstruct - This is initializing the bean before using it
-//    PostConstruct - This is initializing the bean before using it
-//2025-09-22T22:52:42.105+05:30  INFO 14791 --- [sbintro] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-//            2025-09-22T22:52:42.116+05:30  INFO 14791 --- [sbintro] [           main] c.w._.sbintro.SbintroApplication         : Started SbintroApplication in 2.605 seconds (process running for 3.142)
-//    Bean is used thr' psvm call - Im eating
-//    Bean is used thr' psvm call - Im eating
-//            false
+//        2025-09-22T22:56:54.677+05:30  INFO 15020 --- [sbintro] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+//        PostConstruct - This is initializing the bean before using it
+//        2025-09-22T22:56:55.170+05:30  INFO 15020 --- [sbintro] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+//        2025-09-22T22:56:55.180+05:30  INFO 15020 --- [sbintro] [           main] c.w._.sbintro.SbintroApplication         : Started SbintroApplication in 2.623 seconds (process running for 3.147)
+//        Bean is used thr' psvm call - Im eating
+//        Bean is used thr' psvm call - Im eating
+//        true
     }
 }
