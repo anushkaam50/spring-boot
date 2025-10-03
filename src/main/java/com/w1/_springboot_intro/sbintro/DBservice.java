@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 public class DBservice {
 
     @Autowired
-    devDB dev_DB; // tightly coupled where DBservice could able to access devDB
+    private DB db; // tightly coupled where DBservice could able to access devDB and prodDB, if not made @Primary to any 1 of 2 - devDB or prodDB
 
     String getdata(){
-        return dev_DB.getdata();
+        return db.getdata();
     }
 }

@@ -17,6 +17,7 @@ public class SbintroApplication implements CommandLineRunner {
     DBservice DB_service;
 
 
+
 //  static main
 	public static void main(String[] args) {
 		SpringApplication.run(SbintroApplication.class, args);
