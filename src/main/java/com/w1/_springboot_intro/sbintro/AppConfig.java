@@ -12,6 +12,6 @@ public class AppConfig {
     @Bean
 //    @Scope("singleton") // default scope is always singleton; for n of objects, generated hashcode is same for Apple Bean
 //    @Scope("prototype") // hashcode will be different for each this Apple Bean
-     Apple eatApple()    {             // creates bean
+     Apple e_eatApple()    {             // creates bean
      return new Apple();}               // registers bean
 }
